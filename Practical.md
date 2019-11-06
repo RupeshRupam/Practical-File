@@ -96,22 +96,32 @@ int main()
 
 
 #include<stdio.h>
+
 int main()
+
 {
+
   float r,P,A,V;
+
   float pi = 22/7.0;
-  
+
   printf("\nEnter The Radius of Circle: ");
+  
   scanf("%f",&r);
 
   P = 2*pi*r;
+
   A = pi*r*r;
+
   V = 4*pi*r*r*r/3.0;
 
+
   printf("\nPerimeter of Circle is: = %.2f",P);
+
   printf("\nArea of Circle is: = %.2f",A);
 
 printf("\nVolume of Circle is: = %.2f",V);
+
 
 return 0;
 
@@ -122,4 +132,23 @@ Enter The Radius of Circle: 4.5
 Perimeter of Circle is: = 28.29
 Area of Circle is: = 63.64
 Volume of Circle is: = 381.86
+
+
+# 5. Program to find Area, Perimeter of a Rectangle
+
+#include<stdio.h>
+
+int main()
+
+{
+
+float h,b,A,P;
+
+printf("\nEnter Height: ");
+
+scanf("%f",&h);
+
+printf("\nEnter Bredth: ");
+
+scanf("%f",&b);
 
