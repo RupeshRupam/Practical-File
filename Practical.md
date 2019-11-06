@@ -135,20 +135,3 @@ Volume of Circle is: = 381.86
 
 
 # 5. Program to find Area, Perimeter of a Rectangle
-
-#include<stdio.h>
-
-int main()
-
-{
-
-float h,b,A,P;
-
-printf("\nEnter Height: ");
-
-scanf("%f",&h);
-
-printf("\nEnter Bredth: ");
-
-scanf("%f",&b);
-
