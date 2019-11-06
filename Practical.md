@@ -151,3 +151,59 @@ scanf("%f",&h);
 printf("\nEnter Bredth: ");
 
 scanf("%f",&b);
+
+A = h*b;
+
+P = 2*(h+b);
+
+printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
+
+printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
+
+return 0;
+
+}
+
+## Output of the program#
+
+Enter Height: 24
+
+Enter Bredth: 60
+
+Area of Sqare (or) Rectangle: = 1440.000
+
+Perimeter of Sqare (or) Rectangle: = 168.000
+
+# 6. Program to find Interest
+
+#include<stdio.h>
+
+int main()
+
+{
+
+float P,R,T,Interest;
+
+printf("\nEnter The Principal Amount: ");
+
+scanf("%f", &P);
+
+printf("\nEnter The Interest Rate: ");
+
+scanf("%f", &R);
+
+printf("\nEnter The Time (in months): ");
+
+
+scanf("%f", &T);
+
+Interest = P*T*R/100;
+
+printf("\nSimple Intesest is: = %.2f", Interest);
+
+return Interest;
+
+}
+
+## Output of the program
+Enter The Principal Amount: 4000
