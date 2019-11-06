@@ -263,4 +263,6 @@ return result;
 }
 ## Output of the program
 
-Enter The First Value: 5
+Enter The First Value: 10
+Enter The Second Value: 6
+Maximum value is: 10
