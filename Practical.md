@@ -532,112 +532,216 @@ Answer is a/x= 45.000
 
 # 13. Program to use Operator Precedence
 
-
-
 #include<stdio.h>
+
 int main()
+
 {
+
 float a,b,c,d,A;
+
 printf("\nEnter The Value of a: ");
+
 scanf("%f",&a);
+
 printf("Enter The Value of b: ");
+
 scanf("%f",&b);
+
 printf("Enter The Value of c: ");
+
 scanf("%f",&c);
+
 printf("Enter The Value of d: ");
+
 scanf("%f",&d);
+
 A = (a+b)*(c+d);
+
 printf("\n (a+b)*(c+d) = %.3f",A);
+
 A = (c+d)*a*b;
+
 printf("\n (c+d)*a*b = %.3f",A);
+
 A = a*d/(c-b-a);
+
 printf("\n a*d/(c-b-a) = %.3f",A);
+
 A = (b-c)*(a-d);
+
 printf("\n (b-c)*(a-d) = %.3f",A);
+
 return 0;
+
 }
+
 ## Output of the program
+
 Enter The Value of a: 45
+
 Enter The Value of b: 31
+
 Enter The Value of c: 18
+
 Enter The Value of d: 71
+
 (a+b)*(c+d) = 6764.000
+
 (c+d)*a*b = 124155.000
+
 a*d/(c-b-a) = -55.086
+
 (b-c)*(a-d) = -338.000
+
 # 14. Program to find Average
+
 #include<stdio.h>
+
 float average();
+
 int main()
+
 {
+
 printf("\nAverage is: %.2f",average());
+
 return 0;
+
 }
+
 float average()
+
 {
+
 float x,y,z,s,a;
+
 printf("\nEnter The First Value: ");
+
 scanf("%f",&x);
+
 printf("Enter The Second Value: ");
+
 scanf("%f",&y);
 
 printf("Enter The Third Value: ");
+
 scanf("%f",&z);
+
 s = x+y+z;
+
 a = s/3;
+
 return a;
+
 }
+
 ## Output of the program
+
 Enter The First Value: 45
+
 Enter The Second Value: 34
+
 Enter The Third Value: 18
+
 Average is: 32.33
+
 # 15. Program to print F by using #
-#include<stdio.h>
-int main()
-{
-printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
-return 0;
-}
-## Output of the program
-########
-#
-#
-#
-#####
-#
-#
-#
-#
-#
-#
-# 16. Program to find FizzBuzz od a Integer
 
 #include<stdio.h>
+
 int main()
+
 {
-int n;
-printf("\nEnter the Interger: ");
-scanf("%d",&n);
-if(n%15==0)
-printf("\nFizzBuzz");
-else if(n%3==0)
-printf("Fizz\n");
-else if (n%5==0)
-printf("\nBuzz");
-else
-printf("\n%d",n);
+
+printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
+
 return 0;
+
 }
+
 ## Output of the program
-Enter the Interger: 171
-Fizz
-# 17. Program of print a Calculator using puts function
+
+########
+
+#
+
+#
+
+#
+
+#####
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+# 16. Program to find FizzBuzz od a Integer
+
+
+
 #include<stdio.h>
-void main()
+
+int main()
+
 {
+
+int n;
+
+printf("\nEnter the Interger: ");
+
+scanf("%d",&n);
+
+if(n%15==0)
+
+printf("\nFizzBuzz");
+
+else if(n%3==0)
+
+printf("Fizz\n");
+
+else if (n%5==0)
+
+printf("\nBuzz");
+
+else
+
+printf("\n%d",n);
+
+return 0;
+
+}
+
+## Output of the program
+
+Enter the Interger: 171
+
+Fizz
+
+# 17. Program of print a Calculator using puts function
+
+#include<stdio.h>
+
+void main()
+
+{
+
 puts("\n\
+
+
+
+
+
 _______________\n\
+
 | 1 | 2 | 3 | |\n\
 |___|___|___| |\n\
 | 4 | 5 | 6 | + |\n\
@@ -648,7 +752,9 @@ _______________\n\
 |___________|___|\n");
 }
 
+
 ## Output of the program
+
 _______________
 | 1 | 2 | 3 | |
 |___|___|___| |
@@ -658,21 +764,37 @@ _______________
 |___|___|___|___|
 | 0 | * |
 |___________|___|
+
 # 18. Program to print a Face using puts function
+
 #include<stdio.h>
+
 void main()
+
 {
+
 puts("________________");
+
 puts("| XXXXXXXXX |");
+
 puts("| ( ^ ^ ) |");
+
 puts("| ( 0 0 ) |");
+
 puts("| \\ | / |");
+
 puts("| \\ = / |");
+
 puts("| \\_/ |");
+
 puts("| | |");
+
 puts("|_______|______|\n");
+
 }
+
 ## Output of the program
+
 | XXXXXXXXX |
 | ( ^ ^ ) |
 | ( 0 0 ) |
@@ -681,150 +803,294 @@ puts("|_______|______|\n");
 | \_/ |
 | | |
 |_______|______|
+
 # 19. Program of Addition of 2x2 Matrix
 
+
 #include<stdio.h>
+
 int main()
+
 {
+
 float a,b,c,d,e,f,g,h,i,j,k,l;
+
 printf("\nSample of Ist matrix: | a=1 b=2 |\n | c=3 d=4 |\n\n\
+
 Sample of 2nd matrix: | e=5 f=6 |\n | f=7 h=8 |\n\n");
+
 printf("Enter The Valve of a: ");
+
 scanf("%f",&a);
+
 printf("Enter The Valve of b: ");
+
 scanf("%f",&b);
+
 printf("Enter The Valve of c: ");
+
 scanf("%f",&c);
+
 printf("Enter The Valve of d: ");
+
 scanf("%f",&d);
+
 printf("Enter The Valve of e: ");
+
 scanf("%f",&e);
+
 printf("Enter The Valve of f: ");
+
 scanf("%f",&f);
+
 printf("Enter The Valve of g: ");
+
 scanf("%f",&g);
+
 printf("Enter The Valve of h: ");
+
 scanf("%f",&h);
+
 i = a+e;
+
 j = b+f;
+
 k = c+g;
+
 l = d+h;
+
 printf("\n\nSum of Matrix(A+B) is: | %.2f %.2f |\n | %.2f %.2f |",i,j,k,l);
+
 i = a-e;
+
 j = b-f;
+
 k = c-g;
+
 l = d-h;
+
 printf("\n\nSubstraction of Matrix(A-B) is: | %.2f %.2f |\n | %.2f
 %.2f |",i,j,k,l);
+
+
 i = e-a;
+
 j = f-b;
+
 k = g-c;
+
 l = h-d;
+
 printf("\n\nSubstraction of Matrix(B-A) is: | %.2f %.2f |\n | %.2f
 %.2f |",i,j,k,l);
+
 return 0;
+
 }
+
 ## Output of the program
+
 Sample of Ist matrix: | a=1 b=2 |
 | c=3 d=4 |
+
 Sample of 2nd matrix: | e=5 f=6 |
 | f=7 h=8 |
+
+
 Enter The Valve of a: 7
+
 Enter The Valve of b: 5
+
 Enter The Valve of c: 4
+
 Enter The Valve of d: 0
+
 Enter The Valve of e: 3
+
 Enter The Valve of f: 5
+
 Enter The Valve of g: 9
+
 Enter The Valve of h: 1
+
 Sum of Matrix(A+B) is: | 10.00 10.00 |
 | 13.00 1.00 |
+
 Substraction of Matrix(A-B) is: | 4.00 0.00 |
 | -5.00 -1.00 |
+
 Substraction of Matrix(B-A) is: | -4.00 0.00 |
 | 5.00 1.00 |
+
 # 20. Program of Multiplication of 2x2 Matrix
+
 #include<stdio.h>
+
 int main()
+
 {
+
 float a,b,c,d,e,f,g,h,i,j,k,l;
+
 printf("\nSample of Ist matrix: | a=1 b=2 |\n | c=3 d=4 |\n\n\
+
 Sample of 2nd matrix: | e=5 f=6 |\n | f=7 h=8 |\n\n");
+
 printf("Enter The Valve of a: ");
+
 scanf("%f",&a);
+
 printf("Enter The Valve of b: ");
+
 scanf("%f",&b);
+
 printf("Enter The Valve of c: ");
+
 scanf("%f",&c);
+
 printf("Enter The Valve of d: ");
+
 scanf("%f",&d);
+
 printf("Enter The Valve of e: ");
+
 scanf("%f",&e);
+
 printf("Enter The Valve of f: ");
+
 scanf("%f",&f);
+
 printf("Enter The Valve of g: ");
+
 scanf("%f",&g);
+
 printf("Enter The Valve of h: ");
+
 scanf("%f",&h);
+
 i=(a*e)+(b*g);
+
 j=(a*f)+(b*h);
+
 k=(c*e)+(d*g);
+
 l=(c*f)+(d*h);
+
 printf("\nMultiplication of A,B is: | %.2f %.2f |\n | %.2f %.2f |",i,j,k,l);
+
 return 0;
+
 }
+
 ## Output of the program
+
 Sample of Ist matrix: | a=1 b=2 |
 | c=3 d=4 |
+
 Sample of 2nd matrix: | e=5 f=6 |
 | f=7 h=8 |
+
 Enter The Valve of a: 7
+
 Enter The Valve of b: 5
+
 Enter The Valve of c: 4
+
 Enter The Valve of d: 0
+
 Enter The Valve of e: 3
+
 Enter The Valve of f: 5
+
 Enter The Valve of g: 9
+
 Enter The Valve of h: 1
+
 Multiplication of A,B is: | 66.00 40.00 |
 | 12.00 20.00 |
+
 # 21. Program of FizzBuzz in a continues loop
+
 #include<stdio.h>
+
 int main()
+
 {
+
 int n,x;
+
 printf("\nEnter The Integer: ");
+
 scanf("%d",&n);
+
 printf("\n");
+
 {
+
 for(x=1;x<=n;x++)
+
 if(x%15==0)
+
 printf("FizzBuzz\n");
+
 else if(x%3==0)
+
 printf("Fizz\n");
+
 else if(x%5==0)
+
 printf("Buzz\n");
+
 else
+
 printf("%d\n",x);
+
 }
+
 return 0;
+
 }
+
 ## Output of the program
+
 Enter The Integer: 17
+
 1
+
 2
+
 Fizz
+
 4
+
 Buzz
+
 Fizz
+
 7
+
 8
+
 Fizz
+
 Buzz
+
 11
+
 Fizz
+
 13
+
 14
+
 FizzBuzz
+
 16
+
 17
+
+
+
+
+
+
