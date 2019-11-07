@@ -264,138 +264,274 @@ return result;
 ## Output of the program
 
 Enter The First Value: 15
+
 Enter The Second Value: 8
+
 Maximum value is: 15
 
+
 # 8. Program of Sum of two Constants
+
 #include<stdio.h>
+
 int main()
+
 {
+
 int a=100,b=120,c;
+
 c = a+b;
+
 printf("\na=100\nb=120\nSum of a and b is :%d",c);
+
 return 0;
+
 }
+
 ## Output of the program
+
 a=100
+
 b=120
+
 Sum of a and b is :220
+
 # 9. Program To find Minimum
+
 #include<stdio.h>
+
 int min(float x,float y);
+
 int main()
+
 {
+
 float x,y,z;
+
 printf("\nEnter The First Value: ");
+
 scanf("%f",&x);
+
 printf("\nEnter The SecondValue: ");
+
 scanf("%f",&y);
+
 z = min(x,y);
+
 printf("\nMinimum value is: %.2f\n", z);
 
 return 0;
+
 }
+
 int min(float x,float y)
+
 {
+
 float result;
+
 if(x<y)
+
 result = x;
+
 else
+
 result = y;
+
 return result;
+
 }
+
 ## Output of the program
+
 Enter The First Value: 5
+
 Enter The SecondValue: 3
+
 Minimum value is: 3.00
+
 # 10. Program to print Bio Data of Students
+
 #include<stdio.h>
+
 int main()
+
 {
+
 int n,R;
+
 char name[25];
+
 printf("\nEnter The Number of Students: ");
+
 scanf("%d",&n);
+
 for(int i=1; i<=n;i++)
+
 {
+
 printf("\nEnter The Name of The Student : ");
+
 scanf("%s", name);
+
 printf("Enter The Roll No. of Students: ");
+
 scanf("%d",&R);
+
 printf("\nName = %s\nRoll No. = %d\n", name,R);
+
 }
+
 return 0;
+
 }
+
 ## Output of the program
+
 Enter The Number of Students: 3
+
+Enter The Name of The Student : Rupesh
+
+Enter The Roll No. of Students: 1914093
+
+Name = Rupesh
+
+Roll No. = 1914093
+
 Enter The Name of The Student : Sharan
+
 Enter The Roll No. of Students: 1914103
+
 Name = Sharan
+
 Roll No. = 1914103
-Enter The Name of The Student : Sidhant
-Enter The Roll No. of Students: 1914109
-Name = Sidhant
-Roll No. = 1914109
-Enter The Name of The Student : Rohan
-Enter The Roll No. of Students: 1914090
-Name = Rohan
-Roll No. = 1914090
+
+Enter The Name of The Student : Ritik
+
+Enter The Roll No. of Students: 1914087
+
+Name = Ritik
+
+Roll No. = 1914087
+
 # 11. Program to use Arithmetic Operators
+
 #include<stdio.h>
+
 int main()
+
 {
+
 float x,y,a;
+
 printf("\nEnter The Value of x: ");
+
 scanf("%f",&x);
+
 printf("\nEnter The Value of y: ");
+
 scanf("%f",&y);
+
 a = x+y;
+
 printf("x + y = %.3f\n",a);
+
 a = x-y;
+
 printf("x - y = %.3f\n",a);
+
 a = y-x;
+
 printf("y - x = %.3f\n",a);
+
 a = x*y;
+
 printf("x * y = %.3f\n",a);
+
 a = x/y;
+
 printf("x/y = %.3f\n",a);
+
 a = y/x;
+
 printf("y/x = %.3f\n",a);
+
 return 0;
+
 }
+
 ## Output of the program
+
 Enter The Value of x: 45
+
 Enter The Value of y: 31
+
 x + y = 76.000
+
 x - y = 14.000
+
 y - x = -14.000
+
 x * y = 1395.000
+
 x/y = 1.452
+
 y/x = 0.689
+
 # 12. Program to use Assignment Operators
+
 #include<stdio.h>
+
 int main()
+
 {
+
 float x,a;
+
 printf("\nEnter The Value of x: ");
+
 scanf("%f",&x);
+
 a = x;
+
 printf("Answer is a = x %.3f\n",a);
+
 a +=x; //answer is a+x
+
 printf("Answer is a+x = %.3f\n",a);
+
 a -=x; //answer is a-x
+
 printf("Answer is a-x = %.3f\n",a);
+
 a *=x; //answer is a*x
+
 printf("Answer is a*x = %.3f\n",a);
+
 a /=x; //answer is a/x
+
 printf("Answer is a/x= %.3f\n",a);
+
 return 0;
+
 }
+
 ## Output of the program
+
 Enter The Value of x: 45
+
 Answer is a = x 45.000
+
 Answer is a+x = 90.000
+
 Answer is a-x = 45.000
+
 Answer is a*x = 2025.000
+
 Answer is a/x= 45.000
+
 # 13. Program to use Operator Precedence
+
+
+
+
