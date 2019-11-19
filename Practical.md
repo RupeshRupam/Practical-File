@@ -129,9 +129,13 @@ return 0;
 ## Output of the program
 
 Enter The Radius of Circle: 4.5
+
 Perimeter of Circle is: = 28.29
+
 Area of Circle is: = 63.64
+
 Volume of Circle is: = 381.86
+
 
 
 # 5. Program to find Area, Perimeter of a Rectangle
@@ -344,11 +348,11 @@ return result;
 
 ## Output of the program
 
-Enter The First Value: 5
+Enter The First Value: 10
 
-Enter The SecondValue: 3
+Enter The SecondValue: 5
 
-Minimum value is: 3.00
+Minimum value is: 5.00
 
 # 10. Program to print Bio Data of Students
 
