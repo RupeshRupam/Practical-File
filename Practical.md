@@ -650,45 +650,8 @@ Enter The Third Value: 18
 
 Average is: 32.33
 
-# 15. Program to print F by using #
 
-#include<stdio.h>
-
-int main()
-
-{
-
-printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
-
-return 0;
-
-}
-
-## Output of the program
-
-########
-
-#
-
-#
-
-#
-
-#####
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-# 16. Program to find FizzBuzz od a Integer
+# 15. Program to find FizzBuzz od a Integer
 
 
 
@@ -730,85 +693,9 @@ Enter the Interger: 171
 
 Fizz
 
-# 17. Program of print a Calculator using puts function
-
-#include<stdio.h>
-
-void main()
-
-{
-
-puts("\n\
 
 
-
-
-
-_______________\n\
-
-| 1 | 2 | 3 | |\n\
-|___|___|___| |\n\
-| 4 | 5 | 6 | + |\n\
-|___|___|___|___|\n\
-| 7 | 8 | 9 | - |\n\
-|___|___|___|___|\n\
-| 0 | * |\n\
-|___________|___|\n");
-}
-
-
-## Output of the program
-
-_______________
-| 1 | 2 | 3 | |
-|___|___|___| |
-| 4 | 5 | 6 | + |
-|___|___|___|___|
-| 7 | 8 | 9 | - |
-|___|___|___|___|
-| 0 | * |
-|___________|___|
-
-# 18. Program to print a Face using puts function
-
-#include<stdio.h>
-
-void main()
-
-{
-
-puts("________________");
-
-puts("| XXXXXXXXX |");
-
-puts("| ( ^ ^ ) |");
-
-puts("| ( 0 0 ) |");
-
-puts("| \\ | / |");
-
-puts("| \\ = / |");
-
-puts("| \\_/ |");
-
-puts("| | |");
-
-puts("|_______|______|\n");
-
-}
-
-## Output of the program
-
-| XXXXXXXXX |
-| ( ^ ^ ) |
-| ( 0 0 ) |
-| \ | / |
-| \ = / |
-| \_/ |
-| | |
-|_______|______|
-
-# 19. Program of Addition of 2x2 Matrix
+# 16. Program of Addition of 2x2 Matrix
 
 
 #include<stdio.h>
@@ -926,7 +813,7 @@ Substraction of Matrix(A-B) is: | 4.00 0.00 |
 Substraction of Matrix(B-A) is: | -4.00 0.00 |
 | 5.00 1.00 |
 
-# 20. Program of Multiplication of 2x2 Matrix
+# 17. Program of Multiplication of 2x2 Matrix
 
 #include<stdio.h>
 
@@ -1013,7 +900,7 @@ Enter The Valve of h: 1
 Multiplication of A,B is: | 66.00 40.00 |
 | 12.00 20.00 |
 
-# 21. Program of FizzBuzz in a continues loop
+# 18. Program of FizzBuzz in a continues loop
 
 #include<stdio.h>
 
